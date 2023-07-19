@@ -245,33 +245,76 @@ nav{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     padding-left: 200px;
     padding-right: 200px;
+    
+    
 }
-.action{display: flex;
-    justify-content: center;
+.action{display: flex;}
+.adventure{ display: flex;}
+.arcade{display: flex;}
+.educational{display: flex;}
+.word{display: flex;}
+.role{display: flex;}
+.music{display: flex;}
+.puzzle{display: flex;}
+.strategy{display: flex;}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #0B0223;
+    height: auto;
+    padding-top: 40px;
+    width: 1920px;
+    height: 636px;
+    color: white;
+    margin-top: 450px;
+
+}
+.footer-content{
+    display: flex;
     align-items: center;
-}
-.adventure{ display: flex;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.catagory{
+    display: flex;
     align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+
 }
-.arcade{display: flex;
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center;}
-.educational{display: flex;
+    margin: 1rem 0 3rem 0;
+
+
+
+    text-decoration: none;
+    border: 1.1px solid white;
+    padding: 8px;
+    border-radius: 50%;
+    gap: 50px;
+
+}
+.footer-menu .f-menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center;}
-.word{display: flex;
+    gap: 50px;
+}
+
+.path{
+    display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center;}
-.role{display: flex;
-    justify-content: center;
-    align-items: center;}
-.music{display: flex;
-    justify-content: center;
-    align-items: center;}
-.puzzle{display: flex;
-    justify-content: center;
-    align-items: center;}
-.strategy{display: flex;
-    justify-content: center;
-    align-items: center;}
+}
+
