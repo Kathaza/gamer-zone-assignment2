@@ -18,7 +18,7 @@ nav{
     flex-direction: column;
     justify-content: space-between;
     max-width: 1400px;
-    margin: 0;
+    margin: 100;
     
 }
 
@@ -26,9 +26,12 @@ nav{
     display: flex;
     align-items: center;
     font-size: 18px;
+    margin-right: 100px;
+    margin-left: 100px;
+
 }    
 .logo-container h3{
-    font-size: 45px;
+    font-size: 35px;
     gap: 20px;
     
 }
@@ -49,6 +52,7 @@ nav{
     justify-content: space-between;
     padding: 34px ;
 
+
 }
 .navigation-container a{
     text-decoration: none;
@@ -57,5 +61,78 @@ nav{
     font-size: 18px;
     margin-right: 30px;
     margin-top: 20px;
-}
+    margin-left: auto;
     
+
+}
+
+.banner{
+    display: flex;
+    
+    gap: 100px;
+    justify-content: space-between;
+    border: 0;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    
+    
+}
+.banner title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 340px;
+    height: 56px;
+    
+}
+.banner-description{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 95px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-primary{
+    border: 2px ;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 15px;
+   
+    
+}
+   
+    
+.btn-Sign-In{
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+   border-style: none;
+}
+.btn-Go-Rogue{
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-style: none;
+} 
+
